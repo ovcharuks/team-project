@@ -99,3 +99,58 @@ body {
   border: none;
   margin-left: auto;
 }
+
+.hero {
+  padding: 190px 0;
+}
+.hero-subtitle {
+letter-spacing: 0.03em;
+text-align: center;
+color: #fff;
+margin-bottom: 14px;
+}
+.hero-subtitle-part{
+  font-weight: 700;
+color: #ffeb38;
+}
+
+.hero-title {
+ font-size: 70px;
+line-height: 1.285;
+letter-spacing: 0.03em;
+color: #fff;
+max-width: 790px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 22px;
+}
+.hero-text {
+letter-spacing: 0.03em;
+text-align: center;
+color: #fff;
+max-width: 790px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 30px;
+}
+.hero-list {
+  display: flex;
+  justify-content: center;
+  gap: 19px;
+}
+.hero-item {
+}
+.hero-btn {
+  min-width: 181px;
+height: 48px;
+border-radius: 5px;
+background-color: #fff;
+letter-spacing: 0.03em;
+text-align: center;
+color: #202020;
+border: none;
+}
+
+.hero-btn:hover, .hero-btn:focus {
+  background-color: #ffeb38;
+}
